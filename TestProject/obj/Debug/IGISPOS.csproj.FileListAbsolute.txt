@@ -1,0 +1,10 @@
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\bin\Debug\TestProject.exe.config
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\bin\Debug\TestProject.exe
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\bin\Debug\TestProject.pdb
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\IGISPOS.csprojAssemblyReference.cache
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.Form1.resources
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.Forms.Form_Dashboard.resources
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.Properties.Resources.resources
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\IGISPOS.csproj.GenerateResource.cache
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.exe
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.pdb
