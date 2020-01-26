@@ -19,7 +19,8 @@ namespace TestProject.Forms
 
         private void button10_Click(object sender, EventArgs e)
         {
-            this.Dispose();
+            this.Hide();
+            new Form1().Show();
         }
     }
 }
