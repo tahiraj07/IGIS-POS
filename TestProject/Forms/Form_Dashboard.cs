@@ -22,5 +22,10 @@ namespace TestProject.Forms
             this.Hide();
             new Form1().Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new klient_furnitor().Show();
+        }
     }
 }

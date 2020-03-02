@@ -1,0 +1,16 @@
+CREATE TABLE [dbo].[tbl_furnitor] (
+    [id]       INT          IDENTITY (1, 1) NOT NULL,
+    [emri]     VARCHAR(50) NULL,
+    [adresa]   VARCHAR(50) NULL,
+    [nr_cel]   INT        NULL,
+    [kompania] VARCHAR(50) NULL
+);
+
+
+CREATE TABLE [dbo].[tbl_klient] (
+    [id]     INT           IDENTITY (1, 1) NOT NULL,
+    [emri]   VARCHAR (50)  NULL,
+    [adresa] NVARCHAR (50) NULL,
+    [nrcel]  INT           NULL
+);
+

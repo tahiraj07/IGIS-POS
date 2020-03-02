@@ -8,3 +8,4 @@ C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.Prop
 C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\IGISPOS.csproj.GenerateResource.cache
 C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.exe
 C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.pdb
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.Forms.klient_furnitor.resources

@@ -59,6 +59,12 @@
     <Compile Include="Forms\Form_Dashboard.Designer.cs">
       <DependentUpon>Form_Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\klient_furnitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\klient_furnitor.Designer.cs">
+      <DependentUpon>klient_furnitor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\Form1.resx">
@@ -66,6 +72,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form_Dashboard.resx">
       <DependentUpon>Form_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\klient_furnitor.resx">
+      <DependentUpon>klient_furnitor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
