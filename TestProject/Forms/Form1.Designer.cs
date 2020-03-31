@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -54,6 +55,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.UserType = new System.Windows.Forms.TextBox();
+            this.data = new System.Windows.Forms.Label();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -93,7 +96,7 @@
             this.groupBox1.Size = new System.Drawing.Size(286, 251);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Select a User";
+            this.groupBox1.Text = "Zgjidh Perodures";
             // 
             // flowLayoutPanel1
             // 
@@ -116,7 +119,7 @@
             this.groupBox2.Size = new System.Drawing.Size(301, 354);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Enter a Password";
+            this.groupBox2.Text = "Shkruaj Fjalekalimin";
             // 
             // chkHide
             // 
@@ -361,6 +364,7 @@
             this.label4.Size = new System.Drawing.Size(100, 23);
             this.label4.TabIndex = 8;
             this.label4.Text = "HH:MM:SS";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // UserType
             // 
@@ -370,11 +374,28 @@
             this.UserType.TabIndex = 9;
             this.UserType.Visible = false;
             // 
+            // data
+            // 
+            this.data.AutoSize = true;
+            this.data.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.data.ForeColor = System.Drawing.Color.White;
+            this.data.Location = new System.Drawing.Point(19, 53);
+            this.data.Name = "data";
+            this.data.Size = new System.Drawing.Size(100, 23);
+            this.data.TabIndex = 10;
+            this.data.Text = "HH:MM:SS";
+            // 
+            // timer2
+            // 
+            this.timer2.Enabled = true;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.ClientSize = new System.Drawing.Size(1200, 720);
+            this.Controls.Add(this.data);
             this.Controls.Add(this.UserType);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -428,6 +449,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox UserType;
+        private System.Windows.Forms.Label data;
+        private System.Windows.Forms.Timer timer2;
     }
 }
 

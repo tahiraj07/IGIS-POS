@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TestProject.Forms.Artikuj;
+using TestProject.Forms.Blerje;
 
 namespace TestProject.Forms
 {
@@ -26,6 +28,16 @@ namespace TestProject.Forms
         private void button2_Click(object sender, EventArgs e)
         {
             new klient_furnitor().Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new frmLista().Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new frmListaBlerje().Show();
         }
     }
 }

@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using TestProject.Forms;
 using System.Data.SqlClient;
+using System.Globalization;
+
 namespace TestProject
 {
     public partial class Form1 : Form
@@ -95,7 +97,10 @@ namespace TestProject
             txtPassword.Text = "";
             con.Close();
         }
-
+        private void clockTime_Tick(object sender, EventArgs e)
+        {
+            label4.Text = DateTime.Now.ToString("hh:mm:ss");
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
             txtPassword.Focus();
@@ -263,6 +268,18 @@ namespace TestProject
         private void button12_Click(object sender, EventArgs e)
         {
             txtPassword.Text = "";
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        } 
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            CultureInfo al = new CultureInfo("al");
+            label4.Text = DateTime.Now.ToString("hh:mm:ss");
+            data.Text = DateTime.Now.ToLongDateString();
         }
     }
 }

@@ -47,6 +47,48 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="databaza_con.cs" />
+    <Compile Include="Forms\Artikuj\frmBarkodi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Artikuj\frmBarkodi.Designer.cs">
+      <DependentUpon>frmBarkodi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Artikuj\frmGrupe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Artikuj\frmGrupe.Designer.cs">
+      <DependentUpon>frmGrupe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Artikuj\frmImportoArtikuj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Artikuj\frmImportoArtikuj.Designer.cs">
+      <DependentUpon>frmImportoArtikuj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Artikuj\frmLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Artikuj\frmLista.Designer.cs">
+      <DependentUpon>frmLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Artikuj\frmShtoArtikuj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Artikuj\frmShtoArtikuj.Designer.cs">
+      <DependentUpon>frmShtoArtikuj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Blerje\frmListaBlerje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Blerje\frmListaBlerje.Designer.cs">
+      <DependentUpon>frmListaBlerje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Blerje\frmShtoBlerje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Blerje\frmShtoBlerje.Designer.cs">
+      <DependentUpon>frmShtoBlerje.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +109,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Artikuj\frmBarkodi.resx">
+      <DependentUpon>frmBarkodi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Artikuj\frmGrupe.resx">
+      <DependentUpon>frmGrupe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Artikuj\frmImportoArtikuj.resx">
+      <DependentUpon>frmImportoArtikuj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Artikuj\frmLista.resx">
+      <DependentUpon>frmLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Artikuj\frmShtoArtikuj.resx">
+      <DependentUpon>frmShtoArtikuj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Blerje\frmListaBlerje.resx">
+      <DependentUpon>frmListaBlerje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Blerje\frmShtoBlerje.resx">
+      <DependentUpon>frmShtoBlerje.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

@@ -9,3 +9,10 @@ C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\IGISPOS.csproj.G
 C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.exe
 C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.pdb
 C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.Forms.klient_furnitor.resources
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.Forms.Artikuj.frmLista.resources
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.Forms.Artikuj.frmShtoArtikuj.resources
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.Forms.Artikuj.frmImportoArtikuj.resources
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.Forms.Artikuj.frmBarkodi.resources
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.Forms.Artikuj.frmGrupe.resources
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.Forms.Blerje.frmListaBlerje.resources
+C:\Users\CRS\Desktop\IGIS-POS\IGIS-master\TestProject\obj\Debug\TestProject.Forms.Blerje.frmShtoBlerje.resources
